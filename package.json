@@ -1,0 +1,17 @@
+{
+  "name": "testrtc-webhook-director",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Muly Oved",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start-dev": "netlify dev",
+    "deploy": "netlify deploy --prod",
+    "invoke": "netlify functions:invoke shopify-web-hook --no-identity --port 8888",
+    "test": "node ./functions/shopify-web-hook/invoke-test.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
