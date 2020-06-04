@@ -19,16 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd27a738-1cc2-4cba-bd61-7255ecbbe4c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/slack-message-director.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/slack-message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="fd27a738-1cc2-4cba-bd61-7255ecbbe4c6" name="Default Changelist" comment="example forward to slack channel">
+      <change afterPath="$PROJECT_DIR$/.netlify/state.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -110,8 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1591208021331</updated>
       <workItem from="1591208022697" duration="249000" />
-      <workItem from="1591246829176" duration="5767000" />
+      <workItem from="1591246829176" duration="5992000" />
     </task>
+    <task id="LOCAL-00001" summary="example forward to slack channel">
+      <created>1591255779236</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255779236</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,31 +131,39 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="example forward to slack channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="example forward to slack channel" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1591208051326">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591208051326" />
-    <state width="1893" height="110" key="GridCell.Tab.0.bottom" timestamp="1591255701159">
+    <state width="1893" height="110" key="GridCell.Tab.0.bottom" timestamp="1591255716453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701159" />
-    <state width="1893" height="110" key="GridCell.Tab.0.center" timestamp="1591255701158">
+    <state width="1893" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255716453" />
+    <state width="1893" height="110" key="GridCell.Tab.0.center" timestamp="1591255716452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="110" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701158" />
-    <state width="1893" height="110" key="GridCell.Tab.0.left" timestamp="1591255701158">
+    <state width="1893" height="110" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255716452" />
+    <state width="1893" height="110" key="GridCell.Tab.0.left" timestamp="1591255716452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="110" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701158" />
-    <state width="1893" height="110" key="GridCell.Tab.0.right" timestamp="1591255701159">
+    <state width="1893" height="110" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255716452" />
+    <state width="1893" height="110" key="GridCell.Tab.0.right" timestamp="1591255716452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1893" height="110" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701159" />
+    <state width="1893" height="110" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255716452" />
     <state x="344" y="78" key="SettingsEditor" timestamp="1591254171343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="344" y="78" key="SettingsEditor/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591254171343" />
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2" timestamp="1591255850855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="187" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255850855" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591255501039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
