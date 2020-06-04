@@ -7,9 +7,9 @@
   "private": false,
   "scripts": {
     "start-dev": "netlify dev",
-    "deploy": "netlify deploy --prod",
-    "invoke": "netlify functions:invoke shopify-web-hook --no-identity --port 8888",
-    "test": "node ./functions/shopify-web-hook/invoke-test.js"
+    "deploy": "netlify deploy --prod --dir=.",
+    "invoke": "netlify functions:invoke --name slack-message-director --no-identity --port 8888",
+    "test": "node ./functions/slack-message-director/invoke-test.js"
   },
   "devDependencies": {
     "prettier": "^2.0.5"

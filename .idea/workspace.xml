@@ -1,23 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd27a738-1cc2-4cba-bd61-7255ecbbe4c6" name="Default Changelist" comment="" />
+    <list default="true" id="fd27a738-1cc2-4cba-bd61-7255ecbbe4c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/slack-message-director.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/slack-message-director/slack-message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1covzJt62Ufzu6sNIa5WXALy7az" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/license-shopify-integration" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\testrtc\testrtc-webhook-director\node_modules\prettier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\testrtc\testrtc-webhook-director\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+  </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="invoke" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="invoke" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.invoke" />
+        <item itemvalue="npm.start-dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -30,16 +110,52 @@
       <option name="presentableId" value="Default" />
       <updated>1591208021331</updated>
       <workItem from="1591208022697" duration="249000" />
+      <workItem from="1591246829176" duration="5767000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1591208051326">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1591208051326" />
+    <state width="1893" height="110" key="GridCell.Tab.0.bottom" timestamp="1591255701159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701159" />
+    <state width="1893" height="110" key="GridCell.Tab.0.center" timestamp="1591255701158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="110" key="GridCell.Tab.0.center/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701158" />
+    <state width="1893" height="110" key="GridCell.Tab.0.left" timestamp="1591255701158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="110" key="GridCell.Tab.0.left/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701158" />
+    <state width="1893" height="110" key="GridCell.Tab.0.right" timestamp="1591255701159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1893" height="110" key="GridCell.Tab.0.right/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255701159" />
+    <state x="344" y="78" key="SettingsEditor" timestamp="1591254171343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="78" key="SettingsEditor/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591254171343" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591255501039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1080.-387.1080.1920/1920.-392.1080.1920@0.0.1920.1040" timestamp="1591255501039" />
   </component>
 </project>
