@@ -1,4 +1,4 @@
-const { sendSlackMessage } = require("./slack-message");
+const { sendSlackMessage } = require("../../slack-message");
 
 exports.handler = async (event, context) => {
   let message = "";
