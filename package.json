@@ -12,7 +12,8 @@
     "test": "node ./functions/slack-message-director/invoke-test.js"
   },
   "dependencies": {
-    "axios": "0.20.0"
+    "axios": "0.20.0",
+    "cloudevents": "3.2.0"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
