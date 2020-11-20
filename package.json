@@ -11,6 +11,9 @@
     "invoke": "netlify functions:invoke --name slack-message-director --no-identity --port 8888",
     "test": "node ./functions/slack-message-director/invoke-test.js"
   },
+  "dependencies": {
+    "axios": "0.20.0"
+  },
   "devDependencies": {
     "prettier": "^2.0.5"
   }
