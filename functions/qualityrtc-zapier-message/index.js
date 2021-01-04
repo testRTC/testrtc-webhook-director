@@ -9,11 +9,11 @@ exports.handler = async (event, context) => {
     message = `Error in testrtc-webhook-director, failed to parse incoming webhook body [${event.body}]`;
   }
 
-  const webHookURL = "https://hooks.zapier.com/hooks/catch/557397/ocgtbk2";
+  const webHookURL = process.env.ZAPIER_QUALITYRTC_WEBHOOK_URL;
 
   axios({
     method: "POST",
-    webHookURL,
+    url: webHookURL,
     headers: {
       "Content-Type": "application/json; charset=utf-8",
     },
