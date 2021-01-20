@@ -9,9 +9,9 @@ exports.handler = async (event, context) => {
     message = `Error in testrtc-webhook-director, failed to parse incoming webhook body [${event.body}]`;
   }
 
-  const webHookURL = process.env.ZAPIER_QUALITYRTC_WEBHOOK_URL;
+  const webHookURL = process.env.MEND_ZAPIER_QUALITYRTC_WEBHOOK_URL;
 
-  axios({
+  const answer = await axios({
     method: "POST",
     url: webHookURL,
     headers: {
@@ -20,6 +20,7 @@ exports.handler = async (event, context) => {
     data: message,
   });
 
+  console.log(`muly:qualityrtc-zapier-message v2`, {answer, webHookURL});
   return {
     statusCode: 200,
     body: "OK",

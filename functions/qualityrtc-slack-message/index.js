@@ -28,6 +28,7 @@ exports.handler = async (event, context) => {
     console.log(err.message, err.stack);
   }
 
+  console.log(`muly:index:handler`, { SLACK_QUALITYRTC_WEBHOOK_URL: process.env.SLACK_QUALITYRTC_WEBHOOK_URL});
   const webHookURL = process.env.SLACK_QUALITYRTC_WEBHOOK_URL;
 
   await sendSlackMessage(webHookURL, {

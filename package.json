@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "start-dev": "netlify dev",
-    "deploy": "netlify deploy --prod --dir=.",
+    "deploy": "netlify deploy --prod --dir=. --site=6bb37fed-7ee1-48d0-8e1c-56f4423a3b47",
     "invoke": "netlify functions:invoke --name slack-message-director --no-identity --port 8888",
     "test": "node ./functions/slack-message-director/invoke-test.js"
   },
